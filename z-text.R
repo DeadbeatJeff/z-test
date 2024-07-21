@@ -1,6 +1,6 @@
 z.test <- function (x, y = NULL, sigma1, sigma2 = NULL, alternative = "two-sided", mu = 0) 
 {
-  if (missing(x)) # Test again and again and once more
+  if (missing(x)) # Test again and again and once more and again for good measure
   {
     stop("You must specify a data column for x")
   }
